@@ -1,4 +1,5 @@
 const server = require('./server');
+const routes = require('./routes');
 
 const PORT = process.env.PORT || 3000;
 
