@@ -19,4 +19,6 @@ Job9 : db.product.find({}).sort({price: 1})
 
 Job10 : db.product.find({}).sort({price: -1})
 
-Job11 : 
+Job11 : db.product.find({price: {$gt: 5}, quantity: {$lt: 100}})
+
+Job12 : db.product.find({$or: [{price: {$gt: 14.99}}, {quantity: {$gt: 100}}]})
