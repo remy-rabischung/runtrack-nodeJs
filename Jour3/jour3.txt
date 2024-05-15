@@ -11,4 +11,8 @@ Job5 : db.category.insertMany([{name: "chaussures"}, {name: "vêtements"}, {name
 
 Job6 : show collections
 
-Job7 : 
+Job7 : db.category.find()
+
+Job8 : db.category.find({name: {$in: ["chaussures", "vêtements"]}}).limit(2)
+
+Job9 : 
