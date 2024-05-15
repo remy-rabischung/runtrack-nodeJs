@@ -2,4 +2,13 @@ Job1 : Installation OK
 
 Job2 : show dbs 
 
-Job3 : 
+Job3 : db.product.insertOne({name: "chaussure", description: "une paire de chaussures", price: 35, quantity: 120})
+
+Job4 : db.product.insertOne({name: "Pantalon noir", description: "Un pantalon noir", price: 14.99, quantity: 12})
+db.product.insertOne({name: "chaussettes", description: "chaussettes cool !", price: 6, quantity: 6})
+
+Job5 : db.category.insertMany([{name: "chaussures"}, {name: "vêtements"}, {name: "accessoires"}])
+
+Job6 : show collections
+
+Job7 : 
