@@ -15,4 +15,8 @@ Job7 : db.category.find()
 
 Job8 : db.category.find({name: {$in: ["chaussures", "vêtements"]}}).limit(2)
 
-Job9 : 
+Job9 : db.product.find({}).sort({price: 1})
+
+Job10 : db.product.find({}).sort({price: -1})
+
+Job11 : 
